@@ -1,0 +1,563 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* display: flex; */
+  /* grid-template-columns: 1fr 9fr; */
+}
+
+.grid {
+  display: grid;
+}
+
+.m-bottom {
+  margin-bottom: 2rem;
+}
+
+.l-bottom {
+  margin-bottom: 5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 4.2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+h4 {
+  font-size: 2rem;
+  letter-spacing: 0.6rem;
+  font-weight: 100;
+  color: #757575;
+}
+
+a {
+  display: inline-block;
+}
+
+header {
+  margin-left: 10%;
+  /* width: 90%; */
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  padding-top: 6.2rem;
+  grid-column: 2/3;
+}
+
+.main-img-box img {
+  width: 100%;
+}
+
+.main-heading {
+  font-size: 8.4rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+/* 
+******************************************
+**** ASIDE
+******************************************
+*/
+
+aside {
+  position: fixed;
+  top: 0;
+  /* overflow: scroll; */
+  width: 10%;
+  height: 100%;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-bottom: 7rem;
+}
+
+.img-box img {
+  display: block;
+  width: 100%;
+  filter: contrast(0.5);
+}
+
+aside a {
+  display: block !important;
+  color: #fff;
+  text-decoration: none;
+  /* margin-bottom: 2rem; */
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+nav div {
+  /* background-color: black; */
+  color: #999;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.home:hover {
+  background-color: #999;
+  color: black;
+}
+
+.home {
+  background-color: black;
+}
+
+.nav-icon {
+  display: block;
+  display: block;
+  margin: 0 auto;
+  font-size: 4rem;
+  color: #fff;
+  /* margin-bottom: 1rem; */
+  padding-bottom: 1rem;
+}
+
+/* 
+******************************************
+**** MAIN
+******************************************
+*/
+
+main {
+  margin-left: 10%;
+  padding: 9rem;
+  background-color: #000;
+  color: #fff;
+}
+
+/* 
+******************************************
+**** MY NAME
+******************************************
+*/
+
+.my-name-div {
+  width: 20%;
+  border-bottom: 1px solid #fff;
+}
+
+.my-name-text {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.5;
+  color: #757575 !important;
+}
+
+/* 
+******************************************
+**** SKILLS
+******************************************
+*/
+
+.bar {
+  width: 100%;
+  background-color: #fff;
+  margin: 2rem 0;
+}
+
+.photography {
+  width: 90%;
+  height: 3.6rem;
+  background-color: #616161;
+}
+.web-design {
+  width: 85%;
+  height: 3.6rem;
+  background-color: #616161;
+}
+.photoshop {
+  width: 80%;
+  height: 3.6rem;
+  background-color: #616161;
+}
+
+/* 
+******************************************
+**** TESTIMONIAL
+******************************************
+*/
+
+.textimonial-text {
+  background-color: #fff;
+  color: #111;
+  padding: 4rem 0;
+  font-size: 2.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.textimonial p {
+  font-weight: 100 !important;
+}
+
+.textimonial-btn a {
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+}
+.btn-logo {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+/* 
+******************************************
+**** PRICE-CARD
+******************************************
+*/
+
+.price-card-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.price-card {
+  /* background-color: #999; */
+  background-color: #fff;
+  opacity: 0.6;
+}
+
+.price-card:hover {
+  opacity: 100;
+}
+
+.basic-heading {
+  background-color: #616161;
+  padding: 4.8rem;
+  margin: 0;
+}
+
+.price-card ul li {
+  list-style: none;
+  color: #000;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 100;
+  border-bottom: 1px solid #ddd;
+  line-height: 1.6;
+}
+
+.price-value {
+  font-size: 3.2rem;
+  margin-bottom: 2rem !important;
+}
+
+li p {
+  color: #757575;
+}
+
+.sign-up-btn {
+  padding: 2.5rem 4rem !important;
+  background-color: #f1f1f1;
+}
+
+.sign-up-btn a {
+  padding: 1.6rem 2rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  background-color: #fff;
+}
+
+/* 
+******************************************
+**** My Reputation
+******************************************
+*/
+
+.my-reputation {
+  margin-bottom: 15rem;
+}
+.my-reputation h3 {
+  margin-bottom: 4rem !important;
+}
+
+.clint-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #757575;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.clint-img {
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.clint-info span {
+  font-size: 2.2rem;
+  padding: 1rem;
+  /* margin-bottom: 3rem; */
+}
+
+.clint-info p {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top: 1.2rem;
+}
+
+/* 
+******************************************
+**** Gallary
+******************************************
+*/
+
+.gallary-photo {
+  margin-bottom: 10rem;
+}
+
+.gallary-box {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  column-gap: 1.6rem;
+  row-gap: 1rem;
+}
+
+.photo {
+  width: 100%;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.img-box-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.img-box-2 {
+  grid-row: 1/3;
+  /* grid-column: 2/3; */
+}
+.img-box-3 {
+  grid-row: 2/5;
+}
+
+/* 
+******************************************
+**** Contact Me
+******************************************
+*/
+
+.section-form {
+  margin-bottom: 15rem;
+}
+
+.contact-icon {
+  display: flex;
+  /* align-items: center; */
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+.contact-icon span,
+.form-text {
+  padding-top: 2rem;
+  font-size: 2.2rem;
+  color: #616161;
+}
+.icon-1 {
+  font-size: 5rem;
+}
+
+form input {
+  width: 100%;
+  height: 6rem;
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+input::placeholder {
+  font-size: 2rem;
+}
+
+form a {
+  background-color: #ddd;
+  text-decoration: none;
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 100;
+  padding: 1rem 1.6rem;
+  margin-top: 1rem;
+}
+
+/* 
+******************************************
+**** FOOTER
+******************************************
+*/
+footer {
+  margin-left: 10%;
+  padding: 9rem;
+  padding-top: 4rem !important;
+  background-color: #000;
+}
+
+footer nav a {
+  color: #616161;
+  margin-left: 0.5rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+footer nav a:hover {
+  color: #999;
+}
+
+footer p,
+footer p a {
+  color: #616161;
+  font-size: 2rem;
+}
+
+footer p a:hover {
+  color: green;
+}
+
+/* 
+******************************************
+**** FOOTER
+******************************************
+*/
+
+@media (max-width: 600px) {
+  h1 span {
+    display: none;
+  }
+
+  header {
+    padding-top: 8rem !important;
+  }
+
+  .grid {
+    display: block;
+  }
+
+  .photo {
+    margin-bottom: 1rem;
+  }
+
+  .price-card {
+    margin-bottom: 2rem;
+  }
+
+  .my-name-div {
+    width: 40%;
+  }
+
+  aside {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+    display: block;
+    opacity: 0.5;
+    background-color: #000;
+    /* flex-direction: row; */
+  }
+
+  .img-box img {
+    display: none;
+  }
+
+  aside a {
+    display: block !important;
+    color: #fff;
+    text-decoration: none;
+    /* margin-bottom: 2rem; */
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+
+  aside nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* .home:hover {
+    background-color: #999;
+    color: black;
+  } */
+
+  .home {
+    background-color: inherit;
+  }
+
+  .nav-icon {
+    display: none;
+  }
+
+  main,
+  header,
+  footer {
+    margin-left: 0%;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  aside {
+    min-width: 15%;
+  }
+}
